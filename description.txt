@@ -1,0 +1,12 @@
+We have 2 types of cells: Virus and Doctor
+We added some rules for them: 
+	a) If Virus is near the Doctor, then Doctor will neutralize it and will transfer to it's position.
+	b) If a Doctor is between 4 virus cells, he will die
+
+Environment:
+	a) Cemetery - any cell dies (for obv. reasons)
+	c) Regeneration - is an environment where the reproduction is working faster.
+
+Every object that appears is instantiated randomly.
+
+Using Up Arrow or Down Arrow key you can control the generation interval (increase it of decrease it respectively). Also, the total number of present life beings is provided there.
